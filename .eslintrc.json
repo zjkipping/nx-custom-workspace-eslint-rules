@@ -24,7 +24,9 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nrwl/nx/typescript"],
-      "rules": {}
+      "rules": {
+        "@nrwl/nx/workspace/my-custom-rule": "error"
+      }
     },
     {
       "files": ["*.js", "*.jsx"],
